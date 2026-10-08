@@ -1,0 +1,177 @@
+[
+  {
+    "path": "docs/images/presentation/amplifier-simulation.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 11"
+  },
+  {
+    "path": "docs/images/presentation/amplifier-response.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 11"
+  },
+  {
+    "path": "docs/images/presentation/high-pass-circuit.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 12"
+  },
+  {
+    "path": "docs/images/presentation/low-pass-circuit.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 13"
+  },
+  {
+    "path": "docs/images/presentation/breadboard-exploration.jpeg",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 14"
+  },
+  {
+    "path": "docs/images/presentation/serial-output.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 15"
+  },
+  {
+    "path": "docs/images/presentation/spreadsheet-data.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 16"
+  },
+  {
+    "path": "docs/images/presentation/matlab-series.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 20"
+  },
+  {
+    "path": "docs/images/presentation/matlab-band-plots.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 21"
+  },
+  {
+    "path": "docs/images/presentation/eeglab-spectrum.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 26"
+  },
+  {
+    "path": "docs/images/presentation/correlation-heatmap.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 34"
+  },
+  {
+    "path": "docs/images/presentation/model-architecture.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 35"
+  },
+  {
+    "path": "docs/images/presentation/presentation-training-loss.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 36"
+  },
+  {
+    "path": "docs/images/presentation/presentation-training-accuracy.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 36"
+  },
+  {
+    "path": "docs/images/presentation/presentation-confusion-matrix.png",
+    "source": "Project-Presentation.pptx",
+    "location": "Slide 36"
+  },
+  {
+    "path": "docs/images/results/assembled-headband.jpg",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 8"
+  },
+  {
+    "path": "docs/images/results/printed-enclosure.jpg",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 8"
+  },
+  {
+    "path": "docs/images/results/eeg-monitoring-plots.png",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 34"
+  },
+  {
+    "path": "docs/images/results/python-gui.png",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 36"
+  },
+  {
+    "path": "docs/images/results/powerbi-dashboard.png",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 37"
+  },
+  {
+    "path": "docs/images/results/daily-frequency.png",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 39"
+  },
+  {
+    "path": "docs/images/results/daily-attention.png",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 40"
+  },
+  {
+    "path": "docs/images/results/monthly-frequency.png",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 41"
+  },
+  {
+    "path": "docs/images/results/monthly-attention.png",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 42"
+  },
+  {
+    "path": "docs/images/results/band-variance.png",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 43"
+  },
+  {
+    "path": "docs/images/results/student-comparison.png",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 44"
+  },
+  {
+    "path": "docs/images/results/attention-comparison.png",
+    "source": "Results-and-Discussion-Slides.pdf",
+    "location": "Page 45"
+  },
+  {
+    "path": "docs/images/notebook/feature-distributions.png",
+    "source": "confused_student_identification.ipynb",
+    "location": "Original zero-based cell 13"
+  },
+  {
+    "path": "docs/images/notebook/normalized-distributions.png",
+    "source": "confused_student_identification.ipynb",
+    "location": "Original zero-based cell 17"
+  },
+  {
+    "path": "docs/images/notebook/dataset-1-accuracy.png",
+    "source": "confused_student_identification.ipynb",
+    "location": "Original zero-based cell 31"
+  },
+  {
+    "path": "docs/images/notebook/dataset-1-loss.png",
+    "source": "confused_student_identification.ipynb",
+    "location": "Original zero-based cell 31"
+  },
+  {
+    "path": "docs/images/notebook/dataset-1-confusion-matrix.png",
+    "source": "confused_student_identification.ipynb",
+    "location": "Original zero-based cell 32"
+  },
+  {
+    "path": "docs/images/notebook/dataset-2-accuracy.png",
+    "source": "confused_student_identification.ipynb",
+    "location": "Original zero-based cell 34"
+  },
+  {
+    "path": "docs/images/notebook/dataset-2-loss.png",
+    "source": "confused_student_identification.ipynb",
+    "location": "Original zero-based cell 34"
+  },
+  {
+    "path": "docs/images/notebook/dataset-2-confusion-matrix.png",
+    "source": "confused_student_identification.ipynb",
+    "location": "Original zero-based cell 35"
+  }
+]

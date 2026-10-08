@@ -1,0 +1,411 @@
+{
+  "note": "Source paths refer to the supplied EEG folder. Embedded images retain their original content; source_locator identifies slide/page/cell. Original presentations/reports contain historical proposals, screenshots and claims; see the gallery and supporting-document notes for interpretation. Hashes establish provenance, not ownership.",
+  "assets": [
+    {
+      "source": "fyp/import serial.py",
+      "destination": "software/tgam_dashboard.py",
+      "source_sha256": "54be8f72dffebcadc4e984a27195e61aa0f28c8e96ef8b700677e9d66627db6d",
+      "changes": "Removed personal CSV output path/name; added historical status comment. Acquisition and parser logic unchanged.",
+      "packaged_sha256": "e1a96491da620352c11591a94edb2005d73de60ecaef1c4f7e079093824bbaee"
+    },
+    {
+      "source": "Copy_of_confused_student_identification.ipynb",
+      "destination": "notebooks/confused_student_identification.ipynb",
+      "source_sha256": "dd1cfd9376163bc7638dad96592de149c03cf43cebf6156881b1556d234d5168",
+      "changes": "Added historical evaluation notice; adapted Colab path/setup cells to local use. Model and preprocessing code plus historical analytical outputs retained.",
+      "packaged_sha256": "a875e2988cf3fb8ba05b51d39e8cddfe2b002cdab934b7cb2ea05f15d2d8659f"
+    },
+    {
+      "source": "eegcode.m",
+      "destination": "matlab/eegcode.m",
+      "source_sha256": "c0c33d7141e3a3262ebcb5dc786f8bcca994f413e38a74219efc56ec2eaa9d9b",
+      "changes": "None; copied as supplied",
+      "packaged_sha256": "c0c33d7141e3a3262ebcb5dc786f8bcca994f413e38a74219efc56ec2eaa9d9b"
+    },
+    {
+      "source": "eegnew.m",
+      "destination": "matlab/eegnew.m",
+      "source_sha256": "3fbc8173649be33405ae075a5082744b3f70d832504e4a2fc63f7b166b6956d1",
+      "changes": "None; copied as supplied",
+      "packaged_sha256": "3fbc8173649be33405ae075a5082744b3f70d832504e4a2fc63f7b166b6956d1"
+    },
+    {
+      "source": "head bend files/main case.stl",
+      "destination": "hardware/enclosure/main case.stl",
+      "source_sha256": "fcfb3c514421b299950a9298b547d274528c1c13c5a4f9375699c133d345657a",
+      "changes": "None; copied as supplied",
+      "packaged_sha256": "fcfb3c514421b299950a9298b547d274528c1c13c5a4f9375699c133d345657a"
+    },
+    {
+      "source": "head bend files/inner wall.stl",
+      "destination": "hardware/enclosure/inner wall.stl",
+      "source_sha256": "fe5d583070339719caff406aaa92fefc9719060078ebb264e89dae4bfe062cba",
+      "changes": "None; copied as supplied",
+      "packaged_sha256": "fe5d583070339719caff406aaa92fefc9719060078ebb264e89dae4bfe062cba"
+    },
+    {
+      "source": "head bend files/cap 1.stl",
+      "destination": "hardware/enclosure/cap 1.stl",
+      "source_sha256": "23b6391d8d7628becd515921b74c7211249910b63a3d0acf5f33aafda4fe6882",
+      "changes": "None; copied as supplied",
+      "packaged_sha256": "23b6391d8d7628becd515921b74c7211249910b63a3d0acf5f33aafda4fe6882"
+    },
+    {
+      "source": "head bend files/cap 2.stl",
+      "destination": "hardware/enclosure/cap 2.stl",
+      "source_sha256": "9bc74a4c9553b8f09c1fc245cc18b9ac52c198a9ce8481d0486b99a8274aed0b",
+      "changes": "None; copied as supplied",
+      "packaged_sha256": "9bc74a4c9553b8f09c1fc245cc18b9ac52c198a9ce8481d0486b99a8274aed0b"
+    },
+    {
+      "source": "Mind Track Reasearch paper/head bend.jpg",
+      "destination": "docs/images/headband-design.jpg",
+      "source_sha256": "c3ef33bd047538ef243be2ed9c90de3074ceee75f194629b4b1abb9aed1824d4",
+      "changes": "None; copied as supplied",
+      "packaged_sha256": "c3ef33bd047538ef243be2ed9c90de3074ceee75f194629b4b1abb9aed1824d4"
+    },
+    {
+      "source": "Mind Track Reasearch paper/ae1ac78a-8e99-4e78-9635-f7dd2b025deb.jpeg",
+      "destination": "docs/images/prototype-hardware.jpeg",
+      "source_sha256": "b9abf7bc15960c89d0fa3eb75b720043bd97b806ba30a39daac751a72ab9cbf5",
+      "changes": "None; copied as supplied",
+      "packaged_sha256": "b9abf7bc15960c89d0fa3eb75b720043bd97b806ba30a39daac751a72ab9cbf5"
+    },
+    {
+      "source": "Mind Track Reasearch paper/WhatsApp Image 2024-07-28 at 2.47.15 PM.jpeg",
+      "destination": "docs/images/enclosure-dimensions.jpeg",
+      "source_sha256": "8ccc4210d2cf891e67e6a4afc255ebfc96d3e0853508f21168cf8dc0e2285fa6",
+      "changes": "None; copied as supplied",
+      "packaged_sha256": "8ccc4210d2cf891e67e6a4afc255ebfc96d3e0853508f21168cf8dc0e2285fa6"
+    },
+    {
+      "source": "Mind Track Reasearch paper/Green and White Minimalist New Release Perfume Features Instagram Post.png",
+      "destination": "docs/images/hardware-components.png",
+      "source_sha256": "31beea8e86a8168b17181e5c5170e502e551603d14f49a5c3bb534d0299ba6e9",
+      "changes": "None; copied as supplied",
+      "packaged_sha256": "31beea8e86a8168b17181e5c5170e502e551603d14f49a5c3bb534d0299ba6e9"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "supporting-documents/Project-Presentation.pptx",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "changes": "None; complete original file copied under a descriptive filename."
+    },
+    {
+      "source": "fyp/EEG AI Based.pdf",
+      "destination": "supporting-documents/Project-Presentation-Archive.pdf",
+      "source_sha256": "fd8f82885b331a30cdae5796dab1a81dfeb2488eb731f391a9bfe902ccfa5756",
+      "packaged_sha256": "fd8f82885b331a30cdae5796dab1a81dfeb2488eb731f391a9bfe902ccfa5756",
+      "changes": "None; complete original file copied under a descriptive filename."
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "supporting-documents/Results-and-Discussion-Slides.pdf",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "changes": "None; complete original file copied under a descriptive filename."
+    },
+    {
+      "source": "fyp/report.docx",
+      "destination": "supporting-documents/Final-Year-Project-Report.docx",
+      "source_sha256": "3032092099f6b7b7fbbf85bda4c20e59b78450ab2ee2f341a84f96ab4d00de37",
+      "packaged_sha256": "3032092099f6b7b7fbbf85bda4c20e59b78450ab2ee2f341a84f96ab4d00de37",
+      "changes": "None; complete original file copied under a descriptive filename."
+    },
+    {
+      "source": "Mind Track Reasearch paper/Reasearch paper till system model.pdf",
+      "destination": "supporting-documents/Research-Manuscript-Draft.pdf",
+      "source_sha256": "6b446eb83f1a5f47e32cf8980233a0ef97250fd4d32f57b270a41158e1c37160",
+      "packaged_sha256": "6b446eb83f1a5f47e32cf8980233a0ef97250fd4d32f57b270a41158e1c37160",
+      "changes": "None; complete original file copied under a descriptive filename."
+    },
+    {
+      "source": "Mind Track Reasearch paper/Result And Disscussion.pdf",
+      "destination": "supporting-documents/Results-Discussion-Writeup.pdf",
+      "source_sha256": "246c82e8e7f781f90198b0ac905ab453acc8504e477f1050aa6b1b738b421b8b",
+      "packaged_sha256": "246c82e8e7f781f90198b0ac905ab453acc8504e477f1050aa6b1b738b421b8b",
+      "changes": "None; complete original file copied under a descriptive filename."
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/amplifier-simulation.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "1e573ad8f1c011542ed6462fcfef4a438053774edf2542059bd60c5fe10e8b5a",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 11; extraction slide-11-image-03.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/amplifier-response.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "7e92ac2d3160f489c3e95546d033329bea2a1f13b005d1a7230093e418b2742d",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 11; extraction slide-11-image-04.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/high-pass-circuit.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "7e3c24f1772e04898b7f0f1058c09b42a2928b2ddff1ff975dcb909842087405",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 12; extraction slide-12-image-03.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/low-pass-circuit.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "20c4abefe0f41925db2bac3304f6237d1e176f5078540fcd7e7da0f6d190dba6",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 13; extraction slide-13-image-03.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/breadboard-exploration.jpeg",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "7fce201b17e5d74b1b33af9ce5b7162fa0e5f851729293b34197c144f1f0a2e6",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 14; extraction slide-14-image-04.jpeg"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/serial-output.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "4b58d06e7cb152401d46109e8e351c17c88f4da88af71fd0ee2b1079defb319a",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 15; extraction slide-15-image-04.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/spreadsheet-data.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "2abfc277dbccfa74a2f4cb3093da460161062322e298fd5068c3b7b69137751e",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 16; extraction slide-16-image-03.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/matlab-series.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "54452a230c3078a9fa85c2c170f3e460e96ac907507f0cafa04c98aae8221d2a",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 20; extraction slide-20-image-03.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/matlab-band-plots.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "b1f0d8d57415d5d1fd4aeb2009325050ec6f640050c7d054880b9501b88bcba1",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 21; extraction slide-21-image-03.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/eeglab-spectrum.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "80555a56fb217e29f5b9fce14acc857194cc3642da986d7a0abed33f372ff99f",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 26; extraction slide-26-image-04.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/correlation-heatmap.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "6e6035bfe959d1d3b06017fb37ee7dc7b67094c2e82bab7f7887f4e81e9efd11",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 34; extraction slide-34-image-03.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/model-architecture.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "bae83863d66834d514ef431f0703f26a86aca8f3ac3b52d2716634dc8e8baef0",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 35; extraction slide-35-image-04.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/presentation-training-loss.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "4a879fd0a27176f56c6b5b9edb99793f5a36015569891bd9b3c32cf08ba6806a",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 36; extraction slide-36-image-03.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/presentation-training-accuracy.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "ff1548826923c10f33ae119c773b3d12653f464849f709076d7c5bca6fea50fb",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 36; extraction slide-36-image-04.png"
+    },
+    {
+      "source": "fyp/new working.pptx",
+      "destination": "docs/images/presentation/presentation-confusion-matrix.png",
+      "source_sha256": "51809d2c816ed0f8b210ef044053302dce58c40ec313b4197ca0f632e493b811",
+      "packaged_sha256": "3e90ceba5fa27ad1f86d065704d53930de76f05e76a3c9cadce2280176d5d1c2",
+      "changes": "Embedded image extracted without visual edits; image filename renamed.",
+      "source_locator": "Slide 36; extraction slide-36-image-05.png"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/assembled-headband.jpg",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "00fed57b39c74b9ee54d1b3ae1ec8d3977ffb05430bbe780225329987c600052",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 8; extraction results-page-08-image-02.jpg"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/printed-enclosure.jpg",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "42cfab1e4aa385df9117e366e780b64cb97390f95c50c473997a5a84f52a6fa8",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 8; extraction results-page-08-image-04.jpg"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/eeg-monitoring-plots.png",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "bbf587c1eed057c09139a1aceb46c9d6be3fb035ceae7c9212752f2825f710d9",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 34; extraction results-page-34-image-01.png"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/python-gui.png",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "572d27c071cb0908f5c6a40eac3aed1a8ff2a93cfe3974adaa50f626a890abea",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 36; extraction results-page-36-image-01.png"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/powerbi-dashboard.png",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "c52b0a8af276b8270e641da86e1fab4ed27bdd9dfd3282cae69ffc4ed1b0b389",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 37; extraction results-page-37-image-01.png"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/daily-frequency.png",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "5427be6593cb111bd4a3e027480f5aae25dd6c64451eb97bd8f691a10a53eecd",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 39; extraction results-page-39-image-01.png"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/daily-attention.png",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "075e2eaf1c1ab82155fedf169f8c68474fe24f4b011e541e528c05de9d649ccb",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 40; extraction results-page-40-image-01.png"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/monthly-frequency.png",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "2f706503572bc0749487ce61631040eed981411192dc35e4e52ae856d42198f8",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 41; extraction results-page-41-image-01.png"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/monthly-attention.png",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "6c606b170228fcc1917546ee81ab0e20570169bf54c2872723355ffdbbcaf26b",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 42; extraction results-page-42-image-01.png"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/band-variance.png",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "c410f288e742ff3d55dcb6f432cfc7cc83c9d6c60478ebd3aad833a25bc4f33a",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 43; extraction results-page-43-image-01.png"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/student-comparison.png",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "e7184846c15998045549851e215df85dd6a5d5ae7422b36ffad0afb0af4a7e66",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 44; extraction results-page-44-image-01.png"
+    },
+    {
+      "source": "fyp/Results And Disucssion.pdf",
+      "destination": "docs/images/results/attention-comparison.png",
+      "source_sha256": "21fd234eaa5712e94df9a5090e4c9a8e1ed131443b3e68d7c5956a3d602b909c",
+      "packaged_sha256": "f888a959ec45ae1bb5998385ae8ca8e26848ae9b2ab32e997e38bc5dc3e694c5",
+      "changes": "Embedded image extracted from PDF; no visual edits or recomputation.",
+      "source_locator": "Page 45; extraction results-page-45-image-01.jpg"
+    },
+    {
+      "source": "Copy_of_confused_student_identification.ipynb",
+      "destination": "docs/images/notebook/feature-distributions.png",
+      "source_sha256": "dd1cfd9376163bc7638dad96592de149c03cf43cebf6156881b1556d234d5168",
+      "packaged_sha256": "18afaa31536d141ccb1dff1311fee314c801cefa5e3874cae44ab238e17c1744",
+      "changes": "Saved PNG output extracted; no model retraining or graph recomputation.",
+      "source_locator": "Original notebook zero-based cell 13; packaged notebook cell 14"
+    },
+    {
+      "source": "Copy_of_confused_student_identification.ipynb",
+      "destination": "docs/images/notebook/normalized-distributions.png",
+      "source_sha256": "dd1cfd9376163bc7638dad96592de149c03cf43cebf6156881b1556d234d5168",
+      "packaged_sha256": "664f4c6e4391e80b2b377789fbeb683733d9c6d9d2ae212d383911f6e6afa112",
+      "changes": "Saved PNG output extracted; no model retraining or graph recomputation.",
+      "source_locator": "Original notebook zero-based cell 17; packaged notebook cell 18"
+    },
+    {
+      "source": "Copy_of_confused_student_identification.ipynb",
+      "destination": "docs/images/notebook/dataset-1-accuracy.png",
+      "source_sha256": "dd1cfd9376163bc7638dad96592de149c03cf43cebf6156881b1556d234d5168",
+      "packaged_sha256": "5dd916798b8754451e4ebbfb66bdd1da8ac74662abf642f04aebae883dce3efd",
+      "changes": "Saved PNG output extracted; no model retraining or graph recomputation.",
+      "source_locator": "Original notebook zero-based cell 31; packaged notebook cell 32"
+    },
+    {
+      "source": "Copy_of_confused_student_identification.ipynb",
+      "destination": "docs/images/notebook/dataset-1-loss.png",
+      "source_sha256": "dd1cfd9376163bc7638dad96592de149c03cf43cebf6156881b1556d234d5168",
+      "packaged_sha256": "920e992b8d0cb3c8a54c0fd750aafb0df12620d0a4854c42f36356ac161b1e96",
+      "changes": "Saved PNG output extracted; no model retraining or graph recomputation.",
+      "source_locator": "Original notebook zero-based cell 31; packaged notebook cell 32"
+    },
+    {
+      "source": "Copy_of_confused_student_identification.ipynb",
+      "destination": "docs/images/notebook/dataset-1-confusion-matrix.png",
+      "source_sha256": "dd1cfd9376163bc7638dad96592de149c03cf43cebf6156881b1556d234d5168",
+      "packaged_sha256": "9d74c9daedec4d75deb599cf176e23cb7806011ff18e3627fc1ec177f0d4ca1a",
+      "changes": "Saved PNG output extracted; no model retraining or graph recomputation.",
+      "source_locator": "Original notebook zero-based cell 32; packaged notebook cell 33"
+    },
+    {
+      "source": "Copy_of_confused_student_identification.ipynb",
+      "destination": "docs/images/notebook/dataset-2-accuracy.png",
+      "source_sha256": "dd1cfd9376163bc7638dad96592de149c03cf43cebf6156881b1556d234d5168",
+      "packaged_sha256": "a6a33d322879ffd5536194672a8a1d4e4e6a42ef06ee8047f294f136fa8bbe09",
+      "changes": "Saved PNG output extracted; no model retraining or graph recomputation.",
+      "source_locator": "Original notebook zero-based cell 34; packaged notebook cell 35"
+    },
+    {
+      "source": "Copy_of_confused_student_identification.ipynb",
+      "destination": "docs/images/notebook/dataset-2-loss.png",
+      "source_sha256": "dd1cfd9376163bc7638dad96592de149c03cf43cebf6156881b1556d234d5168",
+      "packaged_sha256": "20b4b78d7926e853b88b8336018d7dc784d70c6b24a08397a6fac8e01e8f5b79",
+      "changes": "Saved PNG output extracted; no model retraining or graph recomputation.",
+      "source_locator": "Original notebook zero-based cell 34; packaged notebook cell 35"
+    },
+    {
+      "source": "Copy_of_confused_student_identification.ipynb",
+      "destination": "docs/images/notebook/dataset-2-confusion-matrix.png",
+      "source_sha256": "dd1cfd9376163bc7638dad96592de149c03cf43cebf6156881b1556d234d5168",
+      "packaged_sha256": "b5930e6ff9abb511ae2252559e40137b82516816ca152e4198c9db4a01fc05b3",
+      "changes": "Saved PNG output extracted; no model retraining or graph recomputation.",
+      "source_locator": "Original notebook zero-based cell 35; packaged notebook cell 36"
+    }
+  ]
+}

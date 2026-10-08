@@ -1,0 +1,29 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Public downloads and private recordings
+data/public/*
+!data/public/.gitkeep
+data/local/*
+!data/local/.gitkeep
+
+# Generated data and trained artifacts: add explicitly only after review
+*.csv
+*.mat
+*.set
+*.fdt
+*.pkl
+*.h5
+*.keras
+*.weights.h5
+
+# Local configuration and operating-system files
+.env
+.env.*
+Thumbs.db
+.DS_Store
+*.log
