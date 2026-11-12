@@ -360,3 +360,7 @@ See [LICENSE-NOTICE.md](LICENSE-NOTICE.md) before reuse and [publishing instruct
 [![Repository quality](https://github.com/AnasHussaink/Enhancing-Student-Performance-Through-an-EEG-AI-Classroom-Device/actions/workflows/quality.yml/badge.svg)](https://github.com/AnasHussaink/Enhancing-Student-Performance-Through-an-EEG-AI-Classroom-Device/actions/workflows/quality.yml)
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for branch/PR workflow, local checks and CI coverage.
+
+## Technical scope
+
+EEG and biosignal acquisition with ThinkGear/TGAM, Bluetooth serial, Python visualization, MATLAB and exploratory TensorFlow CNN-BiLSTM research. Research limitations and known parser defects are documented separately.
