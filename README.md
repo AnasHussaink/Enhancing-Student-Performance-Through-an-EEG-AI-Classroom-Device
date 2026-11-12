@@ -353,3 +353,10 @@ This is a team final-year project. The supplied materials list **Anas Hussain Kh
 The package includes selected original reports/presentations and their extracted visuals. Original screenshots and documents retain names, roll numbers, and photographs where present; they have not been anonymized. Public datasets and third-party toolbox/research-paper collections remain excluded. Included code/assets, source locations, and packaging changes are recorded in [asset provenance](docs/ASSET_PROVENANCE.json).
 
 See [LICENSE-NOTICE.md](LICENSE-NOTICE.md) before reuse and [publishing instructions](docs/PUBLISHING.md) to upload this repository, including its images, to GitHub.
+
+
+## Development and quality
+
+[![Repository quality](https://github.com/AnasHussaink/Enhancing-Student-Performance-Through-an-EEG-AI-Classroom-Device/actions/workflows/quality.yml/badge.svg)](https://github.com/AnasHussaink/Enhancing-Student-Performance-Through-an-EEG-AI-Classroom-Device/actions/workflows/quality.yml)
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for branch/PR workflow, local checks and CI coverage.
