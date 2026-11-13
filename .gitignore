@@ -27,3 +27,11 @@ data/local/*
 Thumbs.db
 .DS_Store
 *.log
+
+# Local validation and build output
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.pio/
+build/
